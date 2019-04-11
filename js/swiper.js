@@ -1219,6 +1219,7 @@ var updateSize = function () {
     height = swiper.params.height;
   } else {
     height = $el[0].clientHeight;
+
   }
   if ((width === 0 && swiper.isHorizontal()) || (height === 0 && swiper.isVertical())) {
     return;
@@ -1227,7 +1228,6 @@ var updateSize = function () {
   // Subtract paddings
   width = width - parseInt($el.css('padding-left'), 10) - parseInt($el.css('padding-right'), 10);
   height = height - parseInt($el.css('padding-top'), 10) - parseInt($el.css('padding-bottom'), 10);
-
   Utils.extend(swiper, {
     width: width,
     height: height,
