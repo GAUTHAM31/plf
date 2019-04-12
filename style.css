@@ -290,7 +290,6 @@ font {
 }
 
 .hero-content-overlay p {
-    font-weight: 500;
     line-height: 1.8;
 }
 
@@ -311,7 +310,7 @@ font {
     height: 20px;
     margin-right: 6px;
     border-radius: 0;
-    font-size: 12px;
+    font-size: 18px;
     color: #fff;
     background: transparent;
     opacity: 1;
@@ -338,11 +337,11 @@ font {
 }
 
 .hero-slider .swiper-button-next {
-    right: 80px;
+    right: 30px;
 }
 
 .hero-slider .swiper-button-prev {
-    left: 80px;
+    left: 30px;
 }
 
 .hero-slider .swiper-button-next span,
@@ -391,7 +390,6 @@ font {
     }
 
     .hero-content-overlay p,
-    .hero-slider .pagination-wrap,
     .hero-slider .swiper-button-next,
     .hero-slider .swiper-button-prev{
         display: none;
