@@ -994,7 +994,7 @@ ul.tabs-nav .tab-nav.active {
 .our-causes {
     position: relative;
     padding: 96px 0;
-    background: url("images/cause-bg.jpg") no-repeat center;
+    background: url("images/causebg.jpg") no-repeat center;
     background-size: cover;
     z-index: 99;
 }
@@ -1036,6 +1036,7 @@ ul.tabs-nav .tab-nav.active {
 .our-causes .cause-content-wrap {
     padding: 32px;
     background: #fff;
+    height: 225px;
 }
 
 .our-causes .cause-content-wrap .entry-content {
@@ -1098,11 +1099,6 @@ ul.tabs-nav .tab-nav.active {
     }
 }
 
-@media screen and (max-width: 576px){
-    .our-causes .swiper-button-next,
-    .our-causes .swiper-button-prev {
-        display: none;
-    }
 }
 
 /*
