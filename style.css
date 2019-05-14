@@ -921,9 +921,31 @@ ul.tabs-nav .tab-nav.active {
     margin-top: 50px;
 }
 
-.featured-cause .cause-wrap {
+.featured-cause .cause-wrap
+ {
     padding: 40px 24px;
     background: #edf3f5;
+}
+
+@media (min-width:992px) { 
+
+    .featured-cause .rw-1 {
+        height: 1010px;
+    } 
+
+    .featured-cause .rw-2 {
+        height: 1127px;
+    } 
+}
+
+@media (min-width:1281px){ 
+    .featured-cause .rw-1 {
+        height: 545px;
+    } 
+
+    .featured-cause .rw-2 {
+        height: 700px;
+    } 
 }
 
 .featured-cause .featured-cause .cause-wrap figure {
@@ -1382,7 +1404,7 @@ ul.tabs-nav .tab-nav.active {
     line-height: 1.6;
 }
 
-.single-cause .highlighted-cause .entry-content {
+.single-cause .highlighted-cause .entry-content, .single-cause .entry-content {
     color: #929191;
 }
 
@@ -1403,7 +1425,7 @@ ul.tabs-nav .tab-nav.active {
     font-weight: 500;
 }
 
-.short-content p {
+.short-content p, ul{
     margin-top: 40px;
     font-size: 14px;
     color: #929191;
