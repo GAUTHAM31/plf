@@ -2189,10 +2189,23 @@ ul.tabs-nav .tab-nav.active {
   flex-direction: column;
   justify-items: center;
   min-height: 100vh;
+  padding-bottom: 50px;
 }
 
-.clients-container {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
+@media screen and (min-width: 992px){
+    .clients-container {
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+    }
 }
+
+@media screen and (max-width: 991px){
+
+    .clients-container {
+        width: 90%;
+        max-width: 1000px;
+    }
+
+}
+
