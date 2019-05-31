@@ -924,7 +924,6 @@ ul.tabs-nav .tab-nav.active {
 .featured-cause .cause-wrap
  {
     padding: 40px 24px;
-    background: #edf3f5;
 }
 
 @media (min-width:992px) { 
@@ -1306,6 +1305,21 @@ ul.tabs-nav .tab-nav.active {
 .help-us .btn:hover {
     border-color: #fff;
     color: #fff;
+}
+
+.adv-header
+{
+    color:#4e3a3a; 
+}
+
+.advisors
+{
+    padding-top: 25px;
+}
+
+.plf-about
+{
+    padding-bottom: 45px;
 }
 
 /*--------------------------------------------------------------
