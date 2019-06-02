@@ -2222,4 +2222,13 @@ ul.tabs-nav .tab-nav.active {
     }
 
 }
+/*
+# Team
+--------------------------------*/
+@media screen and (max-width: 991px){
 
+    .team
+{
+    width: 100%;
+}
+}
