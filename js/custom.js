@@ -21,8 +21,8 @@
             },
         },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
+            nextEl: '.swiper-button-next-hero',
+            prevEl: '.swiper-button-prev-hero'
         }
     });
 
