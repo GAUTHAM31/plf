@@ -1326,7 +1326,7 @@ ul.tabs-nav .tab-nav.active {
 # Causes
 --------------------------------------------------------------*/
 .causes-page .page-header {
-    background: url(images/causes-bg.jpg) no-repeat center;
+    background: url(images/cause1-bg.jpg) no-repeat center;
 }
 
 .causes-page .featured-cause {
@@ -1615,7 +1615,7 @@ ul.tabs-nav .tab-nav.active {
 # News
 --------------------------------------------------------------*/
 .news-page .page-header {
-    background: url(images/news-bg.jpg) no-repeat center;
+    background: url(images/cause1-bg.jpg) no-repeat center;
 }
 
 .news-wrap {
@@ -1916,7 +1916,7 @@ ul.tabs-nav .tab-nav.active {
 # Contact Page
 --------------------------------------------------------------*/
 .contact-page .page-header {
-    background: url(images/contact-bg.jpg) no-repeat center;
+    background: url(images/cause1-bg.jpg) no-repeat center;
 }
 
 .contact-page-wrap {
