@@ -2248,3 +2248,24 @@ ul.tabs-nav .tab-nav.active {
     width: 100%;
     height: 440px;
 }
+/*
+# History
+--------------------------------*/
+
+.our-history
+{
+    background-color: #f3f3f3;
+}
+
+.our-history-year
+{
+    text-align: center;
+}
+.our-history-next, .our-history-prev
+{
+    top: 30%;
+}
+.our-history-wrap
+{
+    height: 265px !important;
+}
