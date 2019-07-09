@@ -2269,3 +2269,12 @@ ul.tabs-nav .tab-nav.active {
 {
     height: 265px !important;
 }
+/*
+# History
+--------------------------------*/
+@media screen and (min-width: 992px){
+    .our-approach-img
+    {
+        margin-top: 130px;
+    }
+}
